@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 @class WelcomeViewController;
+@class MainViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property(nonatomic,retain)WelcomeViewController* welcomeView;
+@property (nonatomic,retain)WelcomeViewController* welcomeView;
+@property (nonatomic,retain)MainViewController* mainView;
+
 
 @end

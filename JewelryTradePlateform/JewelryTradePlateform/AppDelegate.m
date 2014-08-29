@@ -8,9 +8,11 @@
 
 #import "AppDelegate.h"
 #import "WelcomeViewController.h"
+#import "MainViewController.h"
 
 @implementation AppDelegate
 @synthesize welcomeView;
+@synthesize mainView;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -18,10 +20,92 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     self.welcomeView = [[WelcomeViewController alloc]init];
+    self.mainView = [[MainViewController alloc]init];
     [self.window insertSubview:self.welcomeView.view atIndex:1];
+    [self switchViews];
     [self.window makeKeyAndVisible];
     
     return YES;
+}
+
+
+/*
+ * @DO 视图切换动画
+ * @param sender(id)
+ */
+- (void) switchViews
+{
+    // 准备动画
+    // [UIView beginAnimations:@"Curl"context:nil];
+    // 动画播放持续时间
+    // [UIView setAnimationDuration:1.25];
+    // 动画速度
+    // [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+    
+    // 准备动画
+    CATransition *animation = [CATransition animation];
+    //动画播放持续时间
+    [animation setDuration:2.0f];
+    //动画速度,何时快、慢
+    [animation setTimingFunction:[CAMediaTimingFunction
+                                  functionWithName:kCAMediaTimingFunctionEaseIn]];
+    
+    if (self.mainView.view.superview == nil)
+    {
+        //  动画方向
+        //  [UIView setAnimationTransition: UIViewAnimationTransitionCurlUp
+        //       forView:self.view cache:YES];
+        /*动画效果
+         (
+         kCATransitionFade淡出|
+         kCATransitionMoveIn覆盖原图|
+         kCATransitionPush推出|
+         kCATransitionReveal底部显出来
+         )
+         */
+        [animation setType:kCATransitionReveal];
+        /*动画方向
+         (
+         kCATransitionFromRight|
+         kCATransitionFromLeft|
+         kCATransitionFromTop|
+         kCATransitionFromBottom
+         )
+         */
+        [animation setSubtype:kCATransitionFromBottom];
+        [self.window.layer addAnimation:animation forKey:@"Reveal"];
+        [self.welcomeView.view removeFromSuperview];
+        [self.window insertSubview:self.mainView.view atIndex:0];
+        
+//        [animation setType:@"suckEffect"];
+//        //开始动画
+//        [self.window.layer addAnimation:animation forKey:@"suckEffect"];
+//        [self.welcomeView.view removeFromSuperview];
+//        [self.window insertSubview:self.mainView.view atIndex:0];
+//        
+    }
+    else
+    {
+        //  动画方向
+        //  [UIView setAnimationTransition: UIViewAnimationTransitionCurlDown
+        //     forView:self.view  cache:YES];
+        /*动画效果
+         (
+         suckEffect三角|
+         rippleEffect水波|
+         pageCurl上翻页|
+         pageUnCurl下翻页|
+         oglFlip上下翻转|
+         )
+         */
+        [animation setType:@"suckEffect"];
+        //开始动画
+        [self.window.layer addAnimation:animation forKey:@"suckEffect"];
+        [self.welcomeView.view removeFromSuperview];
+        [self.window insertSubview:self.welcomeView.view atIndex:0];
+    }
+    // 结束动画
+//    [UIView commitAnimations];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
