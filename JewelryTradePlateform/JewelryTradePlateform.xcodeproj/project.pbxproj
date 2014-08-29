@@ -19,6 +19,7 @@
 		615CFB3319B04459007E3574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615CFB1B19B04458007E3574 /* UIKit.framework */; };
 		615CFB3B19B04459007E3574 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 615CFB3919B04459007E3574 /* InfoPlist.strings */; };
 		615CFB3D19B04459007E3574 /* JewelryTradePlateformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CFB3C19B04459007E3574 /* JewelryTradePlateformTests.m */; };
+		615CFB4B19B047FB007E3574 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CFB4A19B047FB007E3574 /* WelcomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		615CFB3819B04459007E3574 /* JewelryTradePlateformTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JewelryTradePlateformTests-Info.plist"; sourceTree = "<group>"; };
 		615CFB3A19B04459007E3574 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		615CFB3C19B04459007E3574 /* JewelryTradePlateformTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JewelryTradePlateformTests.m; sourceTree = "<group>"; };
+		615CFB4919B047FB007E3574 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		615CFB4A19B047FB007E3574 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				615CFB2719B04458007E3574 /* AppDelegate.m */,
 				615CFB2919B04458007E3574 /* Images.xcassets */,
 				615CFB1E19B04458007E3574 /* Supporting Files */,
+				615CFB4919B047FB007E3574 /* WelcomeViewController.h */,
+				615CFB4A19B047FB007E3574 /* WelcomeViewController.m */,
 			);
 			path = JewelryTradePlateform;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			files = (
 				615CFB2819B04458007E3574 /* AppDelegate.m in Sources */,
 				615CFB2419B04458007E3574 /* main.m in Sources */,
+				615CFB4B19B047FB007E3574 /* WelcomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +443,7 @@
 				615CFB4219B04459007E3574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		615CFB4319B04459007E3574 /* Build configuration list for PBXNativeTarget "JewelryTradePlateformTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +452,7 @@
 				615CFB4519B04459007E3574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
