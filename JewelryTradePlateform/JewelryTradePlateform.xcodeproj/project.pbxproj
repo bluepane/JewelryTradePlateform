@@ -20,6 +20,7 @@
 		615CFB3B19B04459007E3574 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 615CFB3919B04459007E3574 /* InfoPlist.strings */; };
 		615CFB3D19B04459007E3574 /* JewelryTradePlateformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CFB3C19B04459007E3574 /* JewelryTradePlateformTests.m */; };
 		615CFB4B19B047FB007E3574 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CFB4A19B047FB007E3574 /* WelcomeViewController.m */; };
+		615CFB4E19B05820007E3574 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CFB4D19B05820007E3574 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		615CFB3C19B04459007E3574 /* JewelryTradePlateformTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JewelryTradePlateformTests.m; sourceTree = "<group>"; };
 		615CFB4919B047FB007E3574 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
 		615CFB4A19B047FB007E3574 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		615CFB4C19B05820007E3574 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		615CFB4D19B05820007E3574 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				615CFB1E19B04458007E3574 /* Supporting Files */,
 				615CFB4919B047FB007E3574 /* WelcomeViewController.h */,
 				615CFB4A19B047FB007E3574 /* WelcomeViewController.m */,
+				615CFB4C19B05820007E3574 /* MainViewController.h */,
+				615CFB4D19B05820007E3574 /* MainViewController.m */,
 			);
 			path = JewelryTradePlateform;
 			sourceTree = "<group>";
@@ -247,6 +252,7 @@
 				615CFB2819B04458007E3574 /* AppDelegate.m in Sources */,
 				615CFB2419B04458007E3574 /* main.m in Sources */,
 				615CFB4B19B047FB007E3574 /* WelcomeViewController.m in Sources */,
+				615CFB4E19B05820007E3574 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
