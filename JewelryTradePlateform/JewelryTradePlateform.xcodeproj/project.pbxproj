@@ -21,6 +21,24 @@
 		615CFB3D19B04459007E3574 /* JewelryTradePlateformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CFB3C19B04459007E3574 /* JewelryTradePlateformTests.m */; };
 		615CFB4B19B047FB007E3574 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CFB4A19B047FB007E3574 /* WelcomeViewController.m */; };
 		615CFB4E19B05820007E3574 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 615CFB4D19B05820007E3574 /* MainViewController.m */; };
+		619A12F319B191A200812966 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 619A12F219B191A200812966 /* View.xib */; };
+		619A134E19B194D400812966 /* 1welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A133E19B194D400812966 /* 1welcome.jpg */; };
+		619A134F19B194D400812966 /* 2.1.1.1chanpinfabu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A133F19B194D400812966 /* 2.1.1.1chanpinfabu.jpg */; };
+		619A135019B194D400812966 /* 2.1.1shangjia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A134019B194D400812966 /* 2.1.1shangjia.jpg */; };
+		619A135119B194D400812966 /* 2.1gonghuo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A134119B194D400812966 /* 2.1gonghuo.jpg */; };
+		619A135219B194D400812966 /* 2.2.1maijia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A134219B194D400812966 /* 2.2.1maijia.jpg */; };
+		619A135319B194D400812966 /* 2.2qiugou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A134319B194D400812966 /* 2.2qiugou.jpg */; };
+		619A135419B194D400812966 /* 2.3gonghuoxiangqing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A134419B194D400812966 /* 2.3gonghuoxiangqing.jpg */; };
+		619A135519B194D400812966 /* 2mainpage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A134519B194D400812966 /* 2mainpage.jpg */; };
+		619A135619B194D400812966 /* 3.1sendmsg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A134619B194D400812966 /* 3.1sendmsg.jpg */; };
+		619A135719B194D400812966 /* 3message.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A134719B194D400812966 /* 3message.jpg */; };
+		619A135819B194D400812966 /* 4.1.1login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A134819B194D400812966 /* 4.1.1login.jpg */; };
+		619A135919B194D400812966 /* 4.1guangchangfabu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A134919B194D400812966 /* 4.1guangchangfabu.jpg */; };
+		619A135A19B194D400812966 /* 4.2guangchangxiangxi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A134A19B194D400812966 /* 4.2guangchangxiangxi.jpg */; };
+		619A135B19B194D400812966 /* 4guangchang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A134B19B194D400812966 /* 4guangchang.jpg */; };
+		619A135C19B194D400812966 /* 5system.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A134C19B194D400812966 /* 5system.jpg */; };
+		619A135D19B194D400812966 /* 6setting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A134D19B194D400812966 /* 6setting.jpg */; };
+		619A135F19B1961500812966 /* 72.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619A135E19B1961500812966 /* 72.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6157561419B1CC0400E9483A /* NotificationHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationHeader.h; sourceTree = "<group>"; };
 		615CFB1419B04458007E3574 /* JewelryTradePlateform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JewelryTradePlateform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		615CFB1719B04458007E3574 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		615CFB1919B04458007E3574 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,6 +73,24 @@
 		615CFB4A19B047FB007E3574 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 		615CFB4C19B05820007E3574 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		615CFB4D19B05820007E3574 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		619A12F219B191A200812966 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		619A133E19B194D400812966 /* 1welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1welcome.jpg; sourceTree = "<group>"; };
+		619A133F19B194D400812966 /* 2.1.1.1chanpinfabu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.1.1.1chanpinfabu.jpg; sourceTree = "<group>"; };
+		619A134019B194D400812966 /* 2.1.1shangjia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.1.1shangjia.jpg; sourceTree = "<group>"; };
+		619A134119B194D400812966 /* 2.1gonghuo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.1gonghuo.jpg; sourceTree = "<group>"; };
+		619A134219B194D400812966 /* 2.2.1maijia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.2.1maijia.jpg; sourceTree = "<group>"; };
+		619A134319B194D400812966 /* 2.2qiugou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.2qiugou.jpg; sourceTree = "<group>"; };
+		619A134419B194D400812966 /* 2.3gonghuoxiangqing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.3gonghuoxiangqing.jpg; sourceTree = "<group>"; };
+		619A134519B194D400812966 /* 2mainpage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2mainpage.jpg; sourceTree = "<group>"; };
+		619A134619B194D400812966 /* 3.1sendmsg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.1sendmsg.jpg; sourceTree = "<group>"; };
+		619A134719B194D400812966 /* 3message.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3message.jpg; sourceTree = "<group>"; };
+		619A134819B194D400812966 /* 4.1.1login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.1.1login.jpg; sourceTree = "<group>"; };
+		619A134919B194D400812966 /* 4.1guangchangfabu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.1guangchangfabu.jpg; sourceTree = "<group>"; };
+		619A134A19B194D400812966 /* 4.2guangchangxiangxi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.2guangchangxiangxi.jpg; sourceTree = "<group>"; };
+		619A134B19B194D400812966 /* 4guangchang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4guangchang.jpg; sourceTree = "<group>"; };
+		619A134C19B194D400812966 /* 5system.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5system.jpg; sourceTree = "<group>"; };
+		619A134D19B194D400812966 /* 6setting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6setting.jpg; sourceTree = "<group>"; };
+		619A135E19B1961500812966 /* 72.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 72.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +120,7 @@
 		615CFB0B19B04458007E3574 = {
 			isa = PBXGroup;
 			children = (
+				619A133D19B194D400812966 /* image */,
 				615CFB1D19B04458007E3574 /* JewelryTradePlateform */,
 				615CFB3619B04459007E3574 /* JewelryTradePlateformTests */,
 				615CFB1619B04458007E3574 /* Frameworks */,
@@ -113,6 +151,7 @@
 		615CFB1D19B04458007E3574 /* JewelryTradePlateform */ = {
 			isa = PBXGroup;
 			children = (
+				619A135E19B1961500812966 /* 72.jpg */,
 				615CFB2619B04458007E3574 /* AppDelegate.h */,
 				615CFB2719B04458007E3574 /* AppDelegate.m */,
 				615CFB2919B04458007E3574 /* Images.xcassets */,
@@ -121,6 +160,8 @@
 				615CFB4A19B047FB007E3574 /* WelcomeViewController.m */,
 				615CFB4C19B05820007E3574 /* MainViewController.h */,
 				615CFB4D19B05820007E3574 /* MainViewController.m */,
+				619A12F219B191A200812966 /* View.xib */,
+				6157561419B1CC0400E9483A /* NotificationHeader.h */,
 			);
 			path = JewelryTradePlateform;
 			sourceTree = "<group>";
@@ -152,6 +193,29 @@
 				615CFB3919B04459007E3574 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		619A133D19B194D400812966 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				619A133E19B194D400812966 /* 1welcome.jpg */,
+				619A133F19B194D400812966 /* 2.1.1.1chanpinfabu.jpg */,
+				619A134019B194D400812966 /* 2.1.1shangjia.jpg */,
+				619A134119B194D400812966 /* 2.1gonghuo.jpg */,
+				619A134219B194D400812966 /* 2.2.1maijia.jpg */,
+				619A134319B194D400812966 /* 2.2qiugou.jpg */,
+				619A134419B194D400812966 /* 2.3gonghuoxiangqing.jpg */,
+				619A134519B194D400812966 /* 2mainpage.jpg */,
+				619A134619B194D400812966 /* 3.1sendmsg.jpg */,
+				619A134719B194D400812966 /* 3message.jpg */,
+				619A134819B194D400812966 /* 4.1.1login.jpg */,
+				619A134919B194D400812966 /* 4.1guangchangfabu.jpg */,
+				619A134A19B194D400812966 /* 4.2guangchangxiangxi.jpg */,
+				619A134B19B194D400812966 /* 4guangchang.jpg */,
+				619A134C19B194D400812966 /* 5system.jpg */,
+				619A134D19B194D400812966 /* 6setting.jpg */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +293,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619A135D19B194D400812966 /* 6setting.jpg in Resources */,
+				619A134E19B194D400812966 /* 1welcome.jpg in Resources */,
+				619A135519B194D400812966 /* 2mainpage.jpg in Resources */,
+				619A135819B194D400812966 /* 4.1.1login.jpg in Resources */,
+				619A135119B194D400812966 /* 2.1gonghuo.jpg in Resources */,
+				619A135219B194D400812966 /* 2.2.1maijia.jpg in Resources */,
+				619A134F19B194D400812966 /* 2.1.1.1chanpinfabu.jpg in Resources */,
+				619A135C19B194D400812966 /* 5system.jpg in Resources */,
+				619A135A19B194D400812966 /* 4.2guangchangxiangxi.jpg in Resources */,
+				619A135B19B194D400812966 /* 4guangchang.jpg in Resources */,
+				619A135F19B1961500812966 /* 72.jpg in Resources */,
 				615CFB2219B04458007E3574 /* InfoPlist.strings in Resources */,
+				619A135019B194D400812966 /* 2.1.1shangjia.jpg in Resources */,
+				619A135719B194D400812966 /* 3message.jpg in Resources */,
+				619A135419B194D400812966 /* 2.3gonghuoxiangqing.jpg in Resources */,
+				619A135619B194D400812966 /* 3.1sendmsg.jpg in Resources */,
+				619A135919B194D400812966 /* 4.1guangchangfabu.jpg in Resources */,
+				619A12F319B191A200812966 /* View.xib in Resources */,
 				615CFB2A19B04458007E3574 /* Images.xcassets in Resources */,
+				619A135319B194D400812966 /* 2.2qiugou.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

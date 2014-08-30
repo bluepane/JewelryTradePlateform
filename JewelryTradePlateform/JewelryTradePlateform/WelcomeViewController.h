@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface WelcomeViewController : UIViewController
+@property(nonatomic,retain)UIImageView *welcomeImgView;
+@property(nonatomic,retain)UIScrollView *showScrollView;
+@property(nonatomic,retain)UIActivityIndicatorView *indicatorView;
+
+- (void)welcomeViewMake;
+
 
 @end
